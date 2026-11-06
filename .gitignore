@@ -1,0 +1,21 @@
+# Dependencies / build output / coverage
+node_modules/
+coverage/
+*.tsbuildinfo
+
+# Internal development docs (not part of the public package surface)
+docs/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editors
+.idea/
+.vscode/
+
+# Local env / logs / tool caches
+.env
+.env.*
+*.log
+.eslintcache
